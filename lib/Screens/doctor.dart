@@ -73,7 +73,6 @@ SizedBox(height: 10,),
               ],
             ),
             SizedBox(height: 10), // Added spacing between sections
-
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween, // Evenly space boxes
               children: [
@@ -106,7 +105,6 @@ SizedBox(height: 10,),
       ),
     );
   }
-
   Widget _buildConsultationBox({
     required String title,
     required String subtitle,
